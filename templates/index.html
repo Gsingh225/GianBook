@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>GianBook</title>
+    <style>
+        #top{
+         text-align: center;
+        }
+        .but{
+            border: none;
+            width: 85px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: #476ab8;
+            color: white;
+            
+        }
+        #main{
+            text-align: center;
+        }
+        ::placeholder {
+            color: gray;
+            opacity: 1;
+        }
+        body {
+        background-color: #18e7b4;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="top"><h1>Login</h1></div>
+    <div id="main">
+        <form method="POST">
+            <label for="user">Username:</label>
+            <input type="text" name="user" id="user" placeholder="IisCool">
+            <br>
+            <br>
+            <label for="pas">Password:</label>
+            <input type="password" name="pas" id="pas" placeholder="Me1234">
+            <br>
+            <br>
+            <button class="but" name="login" value="login">Login</button>
+            <button class="but" name="register" value="register">Register</button>
+        </form>
+    </div>
+</body>
